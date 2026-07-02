@@ -1,4 +1,5 @@
 <div style="font-family: Arial, sans-serif; line-height:1.6; padding:20px;">
+<h2>Nairobi Freelance Gigs API</h2>
 
 <p style="font-size:18px;">
 This projects demonstrates how to use the modern python framework fastapi to perform crud operations.
