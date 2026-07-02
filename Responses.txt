@@ -1,0 +1,12 @@
+Question 1
+Answer - My registration number is C027-01-2798/2024, the last number of 2798 is 8 so i added 8 + 5 to get 13 so that is why i have 13 gigs. 2798 is an even number that is why i have Developmenmt, Marketing and design as my categories. 27 is greater than 10 that is why i have used USD as my curency
+Question 2
+Answer - i used field, field indicates that this item is amust, and the value of the budget is a float greater than 0, validation is important to ensure that user inputs the correct values also it can be used as a security meausure to ensure that users only input required information and not malicious scripts
+Question 3
+Answer - The status code is 404 meaning the item was not found or not available in our database
+Question 4
+Answer (i) - The search endpoint uses a query parameter of q which is a string, a results list is first defined, the items that match the search will be stored here and then returned. Next we use a for loop to go through the gigs dataset and check if the query string is in the title or description of each gig (in a case insensitive way). When a match is found it is appended into the results list. Finally the results are returned, and if the query does not match anything it just returns an empty list instead of an error.
+Answer (ii) - The /gigs endpoint uses optional query parameters like title, min_price, and max_price to filter gigs. It loops through the gigs and only keeps the ones that match the given conditions. If no parameters are provided, it returns all gigs, and if nothing matches, it returns an empty list.
+Question 5
+Answer (i)- Our Put endpoint is used to update an existing gig by its ID. It takes the new data from the request body and replaces or updates the details of the specified gig, he function loops through the gigs to find a match with the given gig_id. If found, the gig is updated and returned. If the gig does not exist, it returns an HTTP 404 error indicating that the gig was not found.
+Answer (ii)- Post creates a new gig in the database, to ensure that it inputs a new gig correctly, first we define an empty variable called new_id this makes sure it auto assign a new gig a correct id by taking the maximum id in the gigs then adds one the result we assign that to the new gig, also we have the pydantic model passed in as parameters this ensures that the new post follows correct format.
