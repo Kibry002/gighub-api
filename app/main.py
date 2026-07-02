@@ -4,7 +4,7 @@ from typing import List, Optional
 
 from app import crud
 
-app = FastAPI()
+app = FastAPI(description="REG NUMBER: C027-01-2798/2024")
 
 app.include_router(crud.router)
 
