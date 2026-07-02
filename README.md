@@ -63,4 +63,14 @@ uvicorn app.main:app --reload --port 8000
 (Note that the above commands are linux based commands - you will use other commands for other OS)
 </p>
 
+<ul>
+  Features of this api
+  <li>Listing all the gigs available</li>
+    <li>Viewing gig details by specific id</li>
+    <li>Searching gig by title or descripytion</li>
+    <li>Creating new gig</li>
+    <li>Updating the gigs details</li>
+    <li>Deleting gigs</li>
+</ul>
+
 </div>
