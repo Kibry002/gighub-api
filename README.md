@@ -64,7 +64,7 @@ uvicorn app.main:app --reload --port 8000
 </p>
 
 <ul>
-  Features of this api
+  <h2>Features of this api</h2>
   <li>Listing all the gigs available</li>
     <li>Viewing gig details by specific id</li>
     <li>Searching gig by title or descripytion</li>
